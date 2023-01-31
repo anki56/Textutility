@@ -42,8 +42,10 @@ function App() {
     }, 1500)
 
   }
+  console.log("Ankita")
   return (
     <>
+
     <BrowserRouter>
       {/* <Navbar/> */}
       <Navbar title="Textutils" mode={mode} toggleMode={toggleMode} aboutText="About" />
@@ -55,7 +57,8 @@ function App() {
           </Route>
          
           <Route path="/">
-            <TextForm showAlert={showAlert} heading="TEXT CONVERTING BOX" textArea="Enter your text to anyalze" mode={mode} />
+            <TextForm showAlert={showAlert} heading="TEXTssss CONVERTING BOX" textArea="Enter your text to anyalze" mode={mode} />
+          
           </Route>
         </Routes>
   
